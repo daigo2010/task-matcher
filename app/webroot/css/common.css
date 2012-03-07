@@ -1,0 +1,29 @@
+#content {
+    text-align: center;
+    width: 600px;
+}
+li {
+    list-style-type:none;
+}
+.addTask {
+    margin: 0px;
+}
+.flasharea {
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+#header {
+    margin-bottom: 10px;
+}
+.headerTitle {
+    float: left;
+    font-size: 40px;
+}
+.loginbox {
+    margin-right: 100px;
+    text-align: right;
+}
+.logininput {
+    margin-top: 6px;
+
+}
