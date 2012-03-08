@@ -74,6 +74,17 @@ twitter 　　　：@FrankensteinDai
 	</div>
     </div>
 	<div id="footer">
+    <script type="text/javascript"><!--
+    google_ad_client = "ca-pub-7597203665401453";
+    /* task-matcher */
+    google_ad_slot = "3026982119";
+    google_ad_width = 728;
+    google_ad_height = 90;
+    //-->
+    </script>
+    <script type="text/javascript"
+    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
 	</div>
 </div>
 	<?php //echo $this->element('sql_dump'); ?>
