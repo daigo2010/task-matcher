@@ -25,7 +25,7 @@
 また、このプログラムの実行によって発生した損害や問題に対して、
 作者は責任を負わないものとします。
 
-github : 
+github : https://github.com/daigo2010/task-matcher
 
 【使用フレームワーク】
 ・CakePHP 2.0.6
