@@ -46,7 +46,7 @@ class UsersController extends AppController {
             $count = $this->User->find('count', $conditions);
             if ($count <= 0 && $this->User->save($this->request->data)) {
                 $this->Session->setFlash(__('ユーザー登録を完了しました。'));
-                $this->redirect('/');
+                $this->redirect(array('controller' => 'top', 'action' => 'index'));
             } else if ($count > 0) {
                 $this->Session->setFlash(__('このユーザー名は既に使用されています。別のユーザー名を入力してください。'));
                 $this->redirect('/users/add');
