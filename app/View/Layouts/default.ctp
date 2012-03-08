@@ -4,6 +4,7 @@
 	<?php echo $this->Html->charset(); ?>
 	<title>TASK MATCHER</title>
 	<meta name="description" content="TASK MATCHERは、「あれしてほしい。その代わりこれするよ」を気軽にできるようにするサービスです。">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<?php
 		//echo $this->Html->css('cake.generic');
 		echo $this->Html->css('bootstrap.min');
