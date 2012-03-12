@@ -47,7 +47,8 @@
 <?php } ?>
 </table>
 <?php echo $this->Form->create('CommitUser'); ?>
-<?php echo $this->Form->end(__('参加する！')); ?>
+
+<?php if (!is_null($id)) echo $this->Form->end(__('参加する！')); ?>
 
 <?php echo $this->Html->link(__('一覧に戻る'), array('controller' => 'Tasks', 'action' => 'index'));?> 
 

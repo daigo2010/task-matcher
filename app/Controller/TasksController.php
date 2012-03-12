@@ -28,7 +28,7 @@ class TasksController extends AppController {
  * @return void
  */
 	public function view($id = null) {
-        require_once '../Model/Commituser.php';
+        require_once '../Model/CommitUser.php';
         $commit_user = new CommitUser();
         if ($this->request->is('post')) {
             if (0 < $commit_user->find('count', array('conditions' => array('post_id = ' . $id, 'user_id = ' . $this->Auth->user('id'))))) {
